@@ -6,8 +6,6 @@ import cv2
 import argparse
 import os
 
-ap = argparse.ArgumentParser()
-args = vars(ap.parse_args())
 
 # load serialized face detector model from disk
 print("[INFO] loading face detector model...")
