@@ -126,7 +126,7 @@ print(classification_report(testY.argmax(axis=1), predIdxs,
 
 # serialize the model to disk
 print("[INFO] saving mask detector model...")
-model.save('/home/rahul/Downloads/kn/face-mask-detector/dataset', save_format="h5")
+model.save('/home/rahul/Downloads/kn/face-mask-detector/mask_detector.model', save_format="h5")
 
 # plot the training loss and accuracy
 N = EPOCHS
